@@ -30,7 +30,43 @@ const menu_data: DataType[] = [
   {
     id: 1,
     title: "Home",
-    link: "/",
+    link: "#cases",
+    img_dropdown: false,
+  },
+  {
+    id: 2,
+    title: "About",
+    link: "#about",
+    img_dropdown: false,
+  },
+  {
+    id: 3,
+    title: "Services",
+    link: "#services",
+    img_dropdown: false,
+  },
+  {
+    id: 4,
+    title: "Projects",
+    link: "#projects",
+    img_dropdown: false,
+  },
+  {
+    id: 5,
+    title: "Skills",
+    link: "#skills",
+    img_dropdown: false,
+  },
+  {
+    id: 6,
+    title: "Testimonial",
+    link: "#testimonial",
+    img_dropdown: false,
+  },
+  {
+    id: 7,
+    title: "Contact",
+    link: "#contact",
     img_dropdown: false,
   },
 ];

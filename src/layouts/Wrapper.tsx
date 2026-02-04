@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { animationCreate } from "@/utils/utils";
 import { throwableAnimation } from "@/utils/throwableAnimation";
 import ScrollToTop from "@/components/common/ScrollToTop";
+import UnderConstruction from "@/components/common/UnderConstruction";
 import { ToastContainer } from "react-toastify";
 import { usePathname } from "next/navigation";
 import { gsap } from "gsap";
@@ -88,6 +89,7 @@ const Wrapper = ({ children }: any) => {
 
   return (
     <ContextProvider>
+      <UnderConstruction />
       {children}
       <ToastContainer position="top-right" />
       <AnimateMouse/>
